@@ -1,0 +1,11 @@
+C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/final_proj.sv {1 {vlog -work work -stats=none C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/final_proj.sv
+Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+-- Compiling module fin_proj_top
+-- Compiling module main_fsm
+-- Compiling module fourbit_synchronizer
+-- Compiling module matrix_decoder
+
+Top level modules:
+	fin_proj_top
+
+} {} {}}

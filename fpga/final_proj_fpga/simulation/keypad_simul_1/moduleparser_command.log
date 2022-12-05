@@ -1,0 +1,1 @@
+C:/lscc/radiant/3.2/bin/nt64/moduleparser.exe -PROJ keypad_simul_1 -pf C:/lscc/radiant/3.2/cae_library/synthesis/vhdl/iCE40UP.vhd -pf C:/lscc/radiant/3.2/cae_library/synthesis/verilog/iCE40UP.v -lib iCE40UP -lst C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/simulation/keypad_simul_1/source_files.lst

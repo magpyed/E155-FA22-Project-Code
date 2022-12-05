@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadiantProject version="4.2" radiant="3.2.0.18.0" title="final_proj_fpga" device="iCE40UP5K-SG48I" performance_grade="High-Performance_1.2V" default_implementation="impl_1">
+    <Options/>
+    <Implementation title="impl_1" dir="impl_1" description="impl_1" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="fin_proj_top" top="fin_proj_top"/>
+        <Source name="source/impl_1/final_proj.sv" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="System Verilog" top_module="fin_proj_top"/>
+        </Source>
+        <Source name="source/impl_1/testbench.sv" type="Verilog" type_short="Verilog" excluded="TRUE" syn_sim="SimOnly">
+            <Options VerilogStandard="System Verilog"/>
+        </Source>
+        <Source name="keypad_simul_4/keypad_simul_4.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="pinout.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
+        </Source>
+        <Source name="simulation/keypad_simul_1/keypad_simul_1.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="simulation/keypad_simul_2/keypad_simul_2.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="simulation/keypad_simul_3/keypad_simul_3.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="simulation/keypad_simulation_5/keypad_simulation_5.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="simulation/simulation_7/simulation_7.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="final_proj_fpga1.sty"/>
+</RadiantProject>

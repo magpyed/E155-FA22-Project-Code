@@ -1,0 +1,7 @@
+Thu Nov 17 15:01:24 PST 2022
+Trace back: can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+    while executing
+".vcop Eval Project::compileAllFiles"
+    (menu invoke)
+  <2:C:/lscc/radiant/3.2/modeltech/win32loem/tk8.6/bgerror.tcl:106: ::tkerror {can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array}
+  <1:eval:1: ::tk::dialog::error::bgerror {can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array}

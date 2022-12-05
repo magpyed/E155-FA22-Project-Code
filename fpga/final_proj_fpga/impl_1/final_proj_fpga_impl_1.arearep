@@ -1,0 +1,57 @@
+----------------------------------------------------------------------
+Report for cell fin_proj_top.TECH
+Register bits:  86 of 5280 (1.629%)
+I/O cells:      16
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2        17          100.0
+                            FD1P3XZ        86          100.0
+                         HSOSC_CORE         1          100.0
+                                 IB         6          100.0
+                              IOL_B         4          100.0
+                               LUT4        87          100.0
+                                 OB        10          100.0
+SUB MODULES
+               fourbit_synchronizer         1
+            fourbit_synchronizer_U0         1
+                           main_fsm         1
+                     matrix_decoder         1
+                              TOTAL       215
+----------------------------------------------------------------------
+Report for cell main_fsm.v1
+Instance Path : fsm
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        17          100.0
+                            FD1P3XZ        86          100.0
+                              IOL_B         4          100.0
+                               LUT4        83           95.4
+SUB MODULES
+               fourbit_synchronizer         1
+            fourbit_synchronizer_U0         1
+                     matrix_decoder         1
+                              TOTAL       193
+----------------------------------------------------------------------
+Report for cell fourbit_synchronizer.v1
+Instance Path : fsm.synchmatch
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3XZ        12           14.0
+                               LUT4         5            5.7
+                              TOTAL        17
+----------------------------------------------------------------------
+Report for cell fourbit_synchronizer_U0.v1
+Instance Path : fsm.synch
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3XZ         8            9.3
+                              IOL_B         4          100.0
+                               LUT4        32           36.8
+                              TOTAL        44
+----------------------------------------------------------------------
+Report for cell matrix_decoder.v1
+Instance Path : fsm.newnum
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4        14           16.1
+                              TOTAL        14

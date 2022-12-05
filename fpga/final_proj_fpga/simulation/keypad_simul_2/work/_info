@@ -1,0 +1,137 @@
+m255
+K4
+z2
+!s11f vlog 2021.4 2021.10, Oct 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/simulation/keypad_simul_2
+vfin_proj_top
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s125 LATTICE_CONN
+Z2 !s110 1668723842
+!i10b 1
+!s100 5Y3ldEUC?1<b>VR^Y72eG1
+Iddj4MfPm[EiJJG0M3A>2Y0
+S1
+R0
+Z3 w1668722045
+Z4 8C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/final_proj.sv
+Z5 FC:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/final_proj.sv
+!i122 1
+L0 5 15
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OT;L;2021.4;73
+r1
+!s85 0
+31
+Z8 !s108 1668723842.000000
+Z9 !s107 C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/final_proj.sv|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/final_proj.sv|
+!s101 -O0
+!i113 1
+Z11 o-work work -O0
+Z12 tCvgOpt 0
+vfourbit_synchronizer
+R1
+R2
+!i10b 1
+!s100 KQOUROO6Hj_R`TX_eW?FG3
+I_O383Dl7M<77hJG5;ZPb10
+S1
+R0
+R3
+R4
+R5
+!i122 1
+L0 122 12
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vmain_fsm
+R1
+R2
+!i10b 1
+!s100 7anUM7=nLYla::2kNcge^2
+I0jVaSlzKmA`z>5n6IHo0m0
+S1
+R0
+R3
+R4
+R5
+!i122 1
+L0 22 98
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vmatrix_decoder
+R1
+R2
+!i10b 1
+!s100 OXIQT_IB:XV=FgcJQh;JY1
+IdCYD5:@GA]X65B9MR>^643
+S1
+R0
+R3
+R4
+R5
+!i122 1
+L0 135 27
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vtestbench
+R1
+!s110 1668723847
+!i10b 1
+!s100 ?`T?eH4PKIHMF:_jbXE;N1
+I[WeMh:^2:MQBVdF^[`lCc1
+S1
+R0
+w1668723733
+8C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv
+FC:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv
+!i122 3
+L0 1 36
+R6
+R7
+r1
+!s85 0
+31
+!s108 1668723846.000000
+!s107 C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv|
+!s101 -O0
+!i113 1
+R11
+R12

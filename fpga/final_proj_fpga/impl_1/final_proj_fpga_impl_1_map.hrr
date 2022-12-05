@@ -1,0 +1,49 @@
+---------------------------------------------------
+Report for cell fin_proj_top
+   Instance path: fin_proj_top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOLGC	       4.00        100.0
+                                  LUT4	        159        100.0
+                                 IOREG	          4        100.0
+                                 IOBUF	         16        100.0
+                                PFUREG	         86        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                              main_fsm	          1        72.3
+---------------------------------------------------
+Report for cell main_fsm
+   Instance path: fin_proj_top/fsm
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOLGC	       4.00        100.0
+                                  LUT4	        115        72.3
+                                 IOREG	          4        100.0
+                                PFUREG	         86        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                  fourbit_synchronizer	          1         3.1
+               fourbit_synchronizer_U0	          1        20.1
+                        matrix_decoder	          1         8.2
+---------------------------------------------------
+Report for cell fourbit_synchronizer
+   Instance path: fin_proj_top/fsm/synchmatch
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          5         3.1
+                                PFUREG	         12        14.0
+---------------------------------------------------
+Report for cell fourbit_synchronizer_U0
+   Instance path: fin_proj_top/fsm/synch
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOLGC	       4.00        100.0
+                                  LUT4	         32        20.1
+                                 IOREG	          4        100.0
+                                PFUREG	          8         9.3
+---------------------------------------------------
+Report for cell matrix_decoder
+   Instance path: fin_proj_top/fsm/newnum
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         13         8.2

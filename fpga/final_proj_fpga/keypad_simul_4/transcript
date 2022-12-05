@@ -1,0 +1,106 @@
+# Reading pref.tcl
+# do C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/keypad_simul_4/keypad_simul_4.mdo
+# Loading project keypad_simul_4
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 15:05:30 on Nov 17,2022
+# vlog -reportprogress 300 -sv -mfcu "+incdir+"C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1"" -work work C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/final_proj.sv C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv 
+# -- Compiling module fin_proj_top
+# -- Compiling module main_fsm
+# -- Compiling module fourbit_synchronizer
+# -- Compiling module matrix_decoder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	fin_proj_top
+# 	testbench
+# End time: 15:05:30 on Nov 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -lib work -L pmi_work -L ovi_ice40up testbench 
+# Start time: 15:05:30 on Nov 17,2022
+# //  ModelSim - Lattice FPGA Edition 2021.4 Oct 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Lattice FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.main_fsm
+# Loading work.fourbit_synchronizer
+# Loading work.matrix_decoder
+# .main_pane.wave.interior.cs.body.pw.wf
+# Compile of final_proj.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# error: CanCompile -> can't read "ProjectFiles(C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv)": no such element in array
+# error: CanCompile -> can't read "ProjectFiles(C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv)": no such element in array
+# error: CanCompile -> can't read "ProjectFiles(C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv)": no such element in array
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+# Loading work.main_fsm
+# Loading work.fourbit_synchronizer
+# Loading work.matrix_decoder
+# error: CanCompile -> can't read "ProjectFiles(C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+add wave -position end  sim:/testbench/dut/state
+add wave -position end  sim:/testbench/dut/nextstate
+add wave -position end  sim:/testbench/dut/num1
+add wave -position end  sim:/testbench/dut/num2
+add wave -position end  sim:/testbench/dut/num3
+add wave -position end  sim:/testbench/dut/num4
+add wave -position end  sim:/testbench/dut/nextnum
+add wave -position end  sim:/testbench/dut/synched_cols
+add wave -position end  sim:/testbench/dut/synched_rows
+add wave -position end  sim:/testbench/dut/buttonpress
+add wave -position end  sim:/testbench/dut/counter
+add wave -position end  sim:/testbench/dut/threshold
+add wave -position end  sim:/testbench/dut/pwd1
+add wave -position end  sim:/testbench/dut/pwd2
+add wave -position end  sim:/testbench/dut/pwd3
+add wave -position end  sim:/testbench/dut/pwd4
+add wave -position end  sim:/testbench/dut/numpressed
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+run 1500
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: Project::canCompileOOD -> can't read "ProjectFiles(C:\Users\lserafini\Desktop\E155_Project\fpga\final_proj_fpga\source\impl_1\testbench.sv)": no such element in array
+# error: CanCompile -> can't read "ProjectFiles(C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv)": no such element in array
+# error: CanCompile -> can't read "ProjectFiles(C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv)": no such element in array
+# error: CanCompile -> can't read "ProjectFiles(C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv)": no such element in array
+# error: CanCompile -> can't read "ProjectFiles(C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv)": no such element in array
+# error: CanCompile -> can't read "ProjectFiles(C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv)": no such element in array
+# End time: 15:08:14 on Nov 17,2022, Elapsed time: 0:02:44
+# Errors: 0, Warnings: 1

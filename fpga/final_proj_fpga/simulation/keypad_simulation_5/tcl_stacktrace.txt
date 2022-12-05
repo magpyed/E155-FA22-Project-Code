@@ -1,0 +1,22 @@
+Thu Nov 17 15:13:39 PST 2022
+Trace back: can't read "ProjectFiles(C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv)": no such element in array
+    while executing
+"llookup $ProjectFiles($filename) compile_order"
+    (procedure "Project::getCurrentCompilerOrder" line 31)
+    invoked from within
+"Project::getCurrentCompilerOrder 1"
+    (procedure "Project::areCompileFilesSelected" line 3)
+    invoked from within
+"Project::areCompileFilesSelected"
+    (procedure "Transcript::CompileMenuPostCmd" line 19)
+    invoked from within
+"Transcript::CompileMenuPostCmd  .mBar.compile"
+    ("eval" body line 1)
+    invoked from within
+"eval $post_cmd"
+    (procedure "::Vsimmenu::DefaultMenuPostCmd" line 41)
+    invoked from within
+"::Vsimmenu::DefaultMenuPostCmd .mBar.compile {Transcript::CompileMenuPostCmd  .mBar.compile} SetMenuState"
+    (menu preprocess)
+  <2:C:/lscc/radiant/3.2/modeltech/win32loem/tk8.6/bgerror.tcl:106: ::tkerror {can't read "ProjectFiles(C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv)": no such element in array}
+  <1:eval:1: ::tk::dialog::error::bgerror {can't read "ProjectFiles(C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv)": no such element in array}

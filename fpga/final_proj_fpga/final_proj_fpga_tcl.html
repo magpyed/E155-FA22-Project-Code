@@ -1,0 +1,260 @@
+<HTML>
+<HEAD>
+<TITLE>Lattice TCL Log</TITLE>
+<link href="file:///C:/lscc/radiant/3.2/data/theme/css/light/report.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="file:///C:/lscc/radiant/3.2/data/theme/css/print/report.css" rel="stylesheet" type="text/css" media="print"/>
+<style type="text/css">
+#toc {
+  position: fixed;
+  right: 2px;
+  top: 2px;
+  padding: 2px 5px 2px 5px;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+}
+#toc_list {
+  display: none;
+  }
+</style>
+
+<script type="text/javascript">
+<!--
+function showTocList() {
+var a = document.getElementById("toc_list");
+a.style.display = "block";
+}
+
+function hideTocList() {
+var a = document.getElementById("toc_list");
+if (a)
+    a.style.display = "none";
+}
+
+//-->
+</script>
+
+</HEAD>
+
+<BODY>
+
+<DIV id="content" onclick="hideTocList()"><PRE>
+<A name="pn221115182405"></A><B><U><big>pn221115182405</big></U></B>
+#Start recording tcl command: 11/15/2022 18:04:48
+#Project Location: C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga; Project name: final_proj_fpga
+prj_create -name "final_proj_fpga" -impl "impl_1" -dev iCE40UP5K-SG48I -performance "High-Performance_1.2V" -synthesis "lse"
+prj_save 
+prj_add_source "C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/final_proj.sv"
+#Stop recording: 11/15/2022 18:24:05
+
+
+
+<A name="pn221116233139"></A><B><U><big>pn221116233139</big></U></B>
+#Start recording tcl command: 11/16/2022 21:54:56
+#Project Location: C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga; Project name: final_proj_fpga
+prj_open "C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/final_proj_fpga.rdf"
+#Stop recording: 11/16/2022 23:31:39
+
+
+
+<A name="pn221117154759"></A><B><U><big>pn221117154759</big></U></B>
+#Start recording tcl command: 11/17/2022 14:40:58
+#Project Location: C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga; Project name: final_proj_fpga
+prj_open "C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/final_proj_fpga.rdf"
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_disable_source "C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/simulation/keypad_simul_3/keypad_simul_3.spf"
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/keypad_simul_4/keypad_simul_4.spf"
+prj_enable_source "C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv"
+prj_syn_sim_source -src "C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv" SimulateOnly
+prj_add_source "C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/simulation/keypad_simulation_5/keypad_simulation_5.spf"
+#Stop recording: 11/17/2022 15:47:59
+
+
+
+<A name="pn221120212158"></A><B><U><big>pn221120212158</big></U></B>
+#Start recording tcl command: 11/20/2022 20:32:00
+#Project Location: C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga; Project name: final_proj_fpga
+prj_open "C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/final_proj_fpga.rdf"
+prj_disable_source "C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/3.2"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 11/20/2022 21:21:58
+
+
+
+<A name="pn221120222825"></A><B><U><big>pn221120222825</big></U></B>
+#Start recording tcl command: 11/20/2022 21:28:02
+#Project Location: C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga; Project name: final_proj_fpga
+prj_open "C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/final_proj_fpga.rdf"
+launch_programmer_prj "C:/lscc/radiant/3.2"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/simulation/simulation_7/simulation_7.spf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 11/20/2022 22:28:25
+
+
+
+<A name="pn221122151524"></A><B><U><big>pn221122151524</big></U></B>
+#Start recording tcl command: 11/22/2022 14:43:59
+#Project Location: C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga; Project name: final_proj_fpga
+prj_open "C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/final_proj_fpga.rdf"
+launch_programmer_prj "C:/lscc/radiant/3.2"
+prj_set_strategy_value -strategy Strategy1 lse_decode_unreachable_states=True
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 11/22/2022 15:15:24
+
+
+
+<A name="pn221129143910"></A><B><U><big>pn221129143910</big></U></B>
+#Start recording tcl command: 11/29/2022 14:24:14
+#Project Location: C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga; Project name: final_proj_fpga
+prj_open "C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/final_proj_fpga.rdf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/3.2"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 11/29/2022 14:39:10
+
+
+
+<A name="pn221130225718"></A><B><U><big>pn221130225718</big></U></B>
+#Start recording tcl command: 11/30/2022 22:15:56
+#Project Location: C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga; Project name: final_proj_fpga
+prj_open "C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/final_proj_fpga.rdf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/3.2"
+#Stop recording: 11/30/2022 22:57:18
+
+
+
+</PRE></DIV>
+
+<DIV id="toc" class="radiant"><span onmousemove="showTocList()">Contents</span>
+<UL id="toc_list">
+<LI><A href=#pn221115182405>pn221115182405</A></LI>
+<LI><A href=#pn221116233139>pn221116233139</A></LI>
+<LI><A href=#pn221117154759>pn221117154759</A></LI>
+<LI><A href=#pn221120212158>pn221120212158</A></LI>
+<LI><A href=#pn221120222825>pn221120222825</A></LI>
+<LI><A href=#pn221122151524>pn221122151524</A></LI>
+<LI><A href=#pn221129143910>pn221129143910</A></LI>
+<LI><A href=#pn221130225718>pn221130225718</A></LI>
+</UL>
+</DIV>
+
+<button id="back_to_top" class="radiant" onclick="scrollToTop()">&lt;</button>
+<script type="text/javascript">
+<!--
+var scrollStep = 0;
+function scrollToTop(){
+  var funScroll = function() {
+    var top = document.body.scrollTop;
+    if (top == 0) {
+      scrollStep = 0;
+      return;
+    }
+    if (scrollStep == 0)
+      scrollStep = top/20 + 1;
+    top -= scrollStep;
+    if (top < 0)
+      top = 0;
+    document.body.scrollTop = top;
+    requestAnimationFrame(funScroll);
+  };
+  funScroll();
+}
+
+window.addEventListener('scroll', function(e) {
+  var backToTop = document.getElementById('back_to_top')
+  if (document.body.scrollTop > 0) {
+    backToTop.style.display = 'block';
+  } else {	backToTop.style.display = 'none'  }});
+
+//-->
+</script>
+
+<style type="text/css">
+#back_to_top {
+  bottom:20px; right:20px;
+  width:30px; height:30px;
+  font-size: 20px;
+  padding: 2px 5px 2px 5px;
+  position:fixed;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+  display:none;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin:50% 50%;
+}
+#back_to_top:focus {
+  outline-width:0px;
+}
+</style>
+
+</BODY>
+

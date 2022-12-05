@@ -1,0 +1,9 @@
+<RadiantSimulationProject name="keypad_simul_2" simType="ModelSim" stage="0" version="2.0" language="1" path="simulation">
+    <Source worklib="work" type="VERILOG" include="none" langstandard="System Verilog" path="source/impl_1/final_proj.sv"/>
+    <Source worklib="work" type="VERILOG" include="none" langstandard="System Verilog" path="source/impl_1/testbench.sv"/>
+    <SimLib value="pmi_work ovi_ice40up"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <Udo value=""/>
+    <TopModule name="testbench" language="VERILOG" instance=""/>
+</RadiantSimulationProject>

@@ -1,0 +1,19 @@
+#Start recording tcl command: 11/20/2022 20:32:00
+#Project Location: C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga; Project name: final_proj_fpga
+prj_open "C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/final_proj_fpga.rdf"
+prj_disable_source "C:/Users/lserafini/Desktop/E155_Project/fpga/final_proj_fpga/source/impl_1/testbench.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/3.2"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 11/20/2022 21:21:58
